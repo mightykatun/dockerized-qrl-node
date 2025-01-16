@@ -1,7 +1,7 @@
 # Docker-QRL-Node
 All you need to run your own qrl node, dockerized. Resolves the build problems the modules have by setting proper versions.
 Sample docker compose file:
-```
+```sample.yaml
 services:
   node:
     container_name: qrl-node
