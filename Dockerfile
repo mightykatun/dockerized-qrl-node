@@ -44,4 +44,4 @@ RUN pip install service-identity
 RUN pip install -Uv qrl
 
 # Start the node on boot
-CMD ["${START_CMD}"]
+CMD ["sh", "-c", "${START_CMD:-qrl_start}"]
