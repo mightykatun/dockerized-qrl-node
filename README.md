@@ -9,7 +9,7 @@ services:
     image: qrl-node:latest
     restart: unless-stopped
     environment:
-      - START_CMD: "qrl_start" # set the command that runs on startup, see the docs: https://docs.theqrl.org/use/node/installation
+      - START_CMD=qrl_start # set the command that runs on startup, see the docs: https://docs.theqrl.org/use/node/installation
     volumes:
       - ./qrl-data:/root/.qrl
     ports:
