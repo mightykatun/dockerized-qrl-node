@@ -1,5 +1,5 @@
 # Docker-QRL-Node
-All you need to run your own qrl node, dockerized. Resolves the build problems the modules have by setting proper versions.
+All you need to run your own Quantum Resistant Ledger node, dockerized. Resolves the build problems the modules have by setting proper versions.
 
 Here is a sample docker compose file:
 ```sample.yaml
