@@ -80,9 +80,8 @@ Customize the behavior of your QRL node using the following environment variable
 ## Volumes
 The container uses a volume to store blockchain data persistently:
 - **Host Directory**: `./qrl-data`
-- **Container Directory**: `/root/.qrl`
 
-This ensures that your data is not lost when the container is stopped or removed.
+This ensures that your data is not lost when the container is stopped or removed. You may mount it anywhere else.
 
 ---
 
