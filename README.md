@@ -1,4 +1,4 @@
-# Docker-QRL-Node
+# Docker QRL Node
 
 This repository provides everything you need to set up and run a fully containerized Quantum Resistant Ledger (QRL) node. By leveraging Docker, this setup resolves build issues caused by module version conflicts, ensuring a seamless and reliable deployment process.
 
